@@ -16,4 +16,17 @@ def X_dec_to_10(num:str,x:int):
         temp = temp + int(i)*x**j
     return temp 
 print(dec_to_X(10,16))
-print(X_dec_to_10('A5',16))
+print(X_dec_to_10('AAA6FA5',16))
+
+# num = int(input())
+# s=''
+# if num != 0:
+#     while num > 0:
+#         r = num % 16
+#         if r > 9:
+#             r=chr(65+r-10)
+#         s=str(r) + s
+#         num = num // 16
+# else:
+#     print(num)
+# print(s)
